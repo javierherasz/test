@@ -1,0 +1,99 @@
+db.assurance.tt.incidence.findOne({"start": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"history": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"last_event": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"history.0.start": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"history.start": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"historical.date.start": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"responsible.historical.date.start": {"$gte" : ISODate("2016-01-01T00:00:00Z"), "$lt" : ISODate("2016-01-30T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"responsible.historical.date.start": {"$gte" : ISODate("2016-07-15T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}})
+;
+db.assurance.tt.incidence.findOne({"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.0.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.1.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.2.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.3.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.4.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.5.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.5.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}, {"customerservice" : "CS_SM2M"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}, {"customerservice" : "CS_SM2M"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-10T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}, {"customerservice" : "CS_SM2M"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"status_change.start": {"$gte" : ISODate("2016-07-10T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}, {"customerservice" : "CS_SM2M"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"responsible.historical.date.start": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : "Active"}, {"severity" : 2}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : { "$ne" : "Canceled"}}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-16T00:00:00Z"), "$lt" : ISODate("2016-07-17T00:00:00Z")}}, {"type" : "Claim"}, {"status" : { "$ne" : "Canceled"}}, {"customerservice" : "CS_SM2MS"}]})
+use betacompany
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-17T22:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : { "$ne" : "Canceled"}}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-17T22:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : "Solved"}}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-17T22:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : "Solved"}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-17T22:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : "Solved"}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-17T22:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : "Solved"}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.find({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-18T12:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"status" : "Solved"}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(82211)})
+use betacompany
+db.assurance.tt.incidence.findOne({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-18T12:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"customerservice" : "CS_SM2MS"}]})
+use betacompany
+show dbs
+show collections
+use betacompany
+show collections
+db.assurance.tt.incidence.findOne()
+use betacompany
+;
+show collections
+db.assurance.tt.incidence.findOne({"$and" :[{"initial_date": {"$gte" : ISODate("2016-07-18T12:00:00Z"), "$lt" : ISODate("2016-07-18T22:00:00Z")}}, {"type" : "Claim"}, {"customerservice" : "CS_SM2MS"}]})
+db.assurance.tt.incidence.findOne({"$and" :[{"initial_date": {"$gte" : ISODate("2016-08-05T12:00:00Z"), "$lt" : ISODate("2016-08-10T22:00:00Z")}}, {"type" : "Claim"}, {"customerservice" : "CS_SM2MS"}]})
+show dbs
+use betacompany
+show collections
+use betacompany
+show collections
+db.assurance.tt.incidence.findOne()
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(87901)})
+use betacompany
+use betacompany
+;
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(87869)})
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(84274)})
+use betacompany
+db.assurance.tt.incidence.find({"contact_eid" : NumberLong(80048)})
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(80048)})
+;
+db.assurance.tt.incidence.findOne({"contact_eid" : NumberLong(80048)})
+use betacompant
+show dbs
+use betacompany
+db.assurance.tt.incidence.find({"contact_eid":88566})
+db.assurance.tt.incidence.findOne({"contact_eid":88566})
+db.assurance.tt.incidence.findOne({"contact_eid":69021})
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":69021})
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":90299})
+show dbs
+db.assurance.tt.incidence.findOne({"contact_eid":90042})
+db.assurance.tt.incidence.findOne({"contact_eid":90211})
+exiy
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":90211})
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":90211})
+db.assurance.tt.incidence.findOne({"contact_eid":90221})
+db.assurance.tt.incidence.findOne({"contact_eid":87209})
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":87209})
+db.assurance.tt.incidence.findOne({"contact_eid":87217})
+db.assurance.tt.incidence.findOne({"contact_eid":87209})
+use betacompany
+db.assurance.tt.incidence.findOne({"contact_eid":87209})
+ls
+show collections
+ls
+show dbs
+use betacompany
+show collections
+;

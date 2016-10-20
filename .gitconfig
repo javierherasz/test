@@ -1,0 +1,5 @@
+[user]
+	name = Javier de las Heras Zamora
+	email = javier.delasheraszamora@telefonica.com
+[http]
+	sslVerify = false

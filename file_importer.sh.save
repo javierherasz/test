@@ -1,0 +1,8 @@
+#!/bin/bash
+
+fecha=$(date +"%Y-%m-%d")
+cd /home/PRE_M2M_RPR_02/
+
+# Importar el JSON de mongo (usamos la clave publica del usuario PRE_M2M_RPR_02)
+scp -r fstsm:/home/repo/mongobackup/mongodb_dump_ESJC_
+#scp -i .ssh/id_rsa sm2m@10.95.8.77:/home/sm2m/mongobackup/mongodb_json_ESJC-UDOP-WS01P_${fecha}.tar.gz .
