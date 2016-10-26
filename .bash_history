@@ -1,345 +1,3 @@
-sudo tail -f mongod.log 
-#1450353661
-cat /dev/null > mongod.log 
-#1450353665
-sudo cat /dev/null > mongod.log 
-#1450353673
-sudo su
-#1450357349
-ls
-#1450357356
-sudo su -
-#1450358519
-ssh-keygen 
-#1450358592
-ls
-#1450358594
-cd ..
-#1450358595
-ls
-#1450358606
-cd ~
-#1450358607
-ls
-#1450358619
-cat .ssh/id_rsa
-#1450358626
-cat .ssh/id_rsa.pub 
-#1450358750
-ls
-#1450358754
-sudo su
-#1450360540
-exit
-#1450359076
-ls
-#1450359079
-pwd
-#1450359154
-cat mongo_importer.sh 
-#1450359195
-ls
-#1450359793
-for f in backups/tmp/ do echo f done;  exit
-#1450359812
-for f in backups/tmp/; do echo f; done
-#1450359834
-for f in backups/tmp/; do echo $f; done
-#1450359871
-for f in backups/tmp; do echo $f; done
-#1450359882
-for f in ./backups/tmp; do echo $f; done
-#1450359949
-for f in /backups/tmp/*; do echo $f; done
-#1450359955
-for f in backups/tmp/*; do echo $f; done
-#1450360544
-exit
-#1450360903
-df -h
-#1450361498
-pwd
-#1450361499
-ls
-#1450361535
-cd backups/
-#1450361535
-ls
-#1450361537
-cd tmp/
-#1450361537
-ls
-#1450361689
-ls -lrt
-#1450361714
-cat movistar.equipment.json 
-#1450361770
-cat site.json 
-#1450361780
-ls -lrt
-#1450361781
-ls
-#1450361793
-cat catalogue.service.resource.json 
-#1450361798
-ls
-#1450361832
-history
-#1450361868
-mongod 
-#1450362133
-man mongo
-#1450363463
-cd /etc/
-#1450363464
-ls
-#1450365808
-ps -ef
-#1450365906
-cd /var/lib/mongo/
-#1450365906
-ls
-#1450365909
-ls -lrt
-#1450365913
-ls -lrth
-#1450367849
-ping www.google.es
-#1450369059
-ps -ef | grep mongo
-#1450369064
-cd /etc/
-#1450369067
-vi mongod.conf 
-#1450371084
-exit
-#1450426055
-ifconfig
-#1450428280
-who
-#1450428348
-yum repolist enabled | grep "mysql.*-community.*"
-#1450428355
-sudo yum repolist enabled | grep "mysql.*-community.*"
-#1450428360
-sudo yum repolist enabled |
-#1450428365
-sudo yum repolist enabled
-#1450428772
-ls
-#1450428788
-rm -R backups/
-#1450428798
-rm -rf backups/
-#1450428803
-sudo rm -rf backups/
-#1450428812
-sudo rm mongodb_json_ESJC-UDOP-WS01P_2015-12-17.tar.gz 
-#1450428836
-./udo_importer.sh 
-#1450428947
-history 
-#1450428953
-history | grp ssh
-#1450428957
-history | grep ssh
-#1450428965
-sudo su
-#1450429441
-sudo s 
-#1450429443
-sudo su
-#1450434457
-exit
-#1450443402
-mysql
-#1450443542
-service mysqld status
-#1450443604
-uname
-#1450443605
-uname -a
-#1450443640
-sudo chkconfig mysqld on
-#1450443689
-mysql
-#1450443715
-sudo su
-#1450443774
-mysql -u root -h localhost -p sm2madmin
-#1450443783
-mysql -u root -h localhost -p
-#1450444224
-sudo su
-#1450446296
-cd ~
-#1450446298
-ls
-#1450446314
-vim incidencias.py 
-#1450446359
-chmod incidencias.py 
-#1450446363
-chmod +x incidencias.py 
-#1450446368
-./incidencias.py 
-#1450446380
-python
-#1450446411
-python incidencias.py 
-#1450446429
-pip install pymongo
-#1450446475
-yum install python-pip
-#1450446480
-sudo yum install python-pip
-#1450446503
-wget https://bootstrap.pypa.io/get-pip.py
-#1450446521
-python get-pip.py 
-#1450446627
-sudo python get-pip.py 
-#1450446658
-python incidencias.py 
-#1450446675
-pip install pymongo
-#1450446684
-sudo su
-#1451165219
-ls
-#1451165240
-sudo su -
-#1451898950
-ls
-#1451901008
-yum install gcc-c++
-#1451901019
-sudo yum install gcc-c++
-#1451904691
-exit
-#1451894885
-ls
-#1451894896
-netstat
-#1451894901
-netstat -tuna
-#1451895492
-ls
-#1451895504
-python incidencias.py 
-#1451895612
-pip install MySQL-python
-#1451895724
-yum search python | grep -i devel
-#1451895753
-sudo yum install python-devel.x86_64
-#1451895761
-pip install MySQL-python
-#1451895812
-yum search mysql
-#1451895844
-yum install MySQL-python.x86_64
-#1451895849
-sudo yum install MySQL-python.x86_64
-#1451895868
-ls
-#1451895873
-python incidencias.py 
-#1451896933
-pwd
-#1451897002
-ls
-#1451897014
-python incidencias.py 
-#1451897130
-sudo pip install pandas
-#1451898867
-ls
-#1451898899
-sudo rm /tmp/*
-#1451898918
-sudo pip install pandas
-#1451899351
-sudo rm /tmp/*
-#1451899476
-yum group install "Development Tools"
-#1451899481
-sudo yum group install "Development Tools"
-#1451899729
-pip install setuptools
-#1451899736
-pip install numpy
-#1451901048
-sudo pip install numpy
-#1451901289
-sudo pip install pandas
-#1451901837
-ls
-#1451901846
-python incidencias.py 
-#1451902037
-vim
-#1451902048
-ls
-#1451902055
-vim incidencias.py 
-#1451902074
-python incidencias.py 
-#1451902247
-ls
-#1451902250
-pwd
-#1451902904
-vim libgeneral.py
-#1451903002
-python incidencias.py 
-#1451903035
-vim libgeneral.py
-#1451903049
-python incidencias.py 
-#1451903059
-vim libgeneral.py
-#1451903083
-python incidencias.py 
-#1451903102
-vim libgeneral.py
-#1451903149
-python incidencias.py 
-#1451903153
-vim libgeneral.py
-#1451903168
-python incidencias.py 
-#1451903627
-ls
-#1451904473
-python incidencias.py 
-#1451904775
-python
-#1451909359
-ls
-#1451909365
-python incidencias.py 
-#1451912656
-cd ..
-#1451912657
-exit
-#1451913571
-sudo su
-#1451913685
-su -
-#1451913703
-sudo restart
-#1451913710
-sudo reboot
-#1451904785
-ls
-#1451912697
-sudo su -
-#1451913058
-su -
-#1451913143
-sudo -i
-#1451913787
 ls
 #1451913794
 sudo su 
@@ -4966,3 +4624,345 @@ ls /var/tmp/
 ls
 #1476711288
 ls -l
+#1476950989
+ls
+#1476950993
+git init
+#1476951054
+git config --global user.name "Javier de las Heras Zamora"
+#1476951118
+git config --global user.email javier.delasheraszamora@telefonica.com
+#1476951417
+git clone https://git.dsmc.tid.es/jpb390/scripts_conexion.git
+#1476952231
+error:  while accessing https://git.dsmc.tid.es/jpb390/scripts_conexion.git/info/refs
+#1476952231
+fatal: HTTP request failed
+#1476952777
+git clone https://dev-dsmc-git-01.hi.inet/esanchez/dsmc-kpis/
+#1476952832
+git config --global http.sslVerify false
+#1476952889
+git clone https://dev-dsmc-git-01.hi.inet/esanchez/dsmc-kpis/
+#1476953080
+git clone https://dev-dsmc-git-01.hi.inet/esanchez/dsmc-kpis/ did you run git update-server-info on the server?
+#1476953127
+nano .gitconfig 
+#1476953949
+git clone https://git.dsmc.tid.es/b.jhz/test.git
+#1476954806
+git clone https://github.com/javierherasz/test.git
+#1476955476
+git checkout master
+#1476955483
+git checkout
+#1476955512
+git
+#1476955519
+git branch
+#1476955535
+git checkout
+#1476955541
+ls
+#1476955547
+ls -a
+#1476955691
+git checkout -b test
+#1476955723
+git checkout -b 1
+#1476956503
+fatal: You are on a branch yet to be born
+#1476956632
+git checkout origin/master
+#1476956646
+git add .
+#1476956660
+git checkout
+#1476956665
+git branch
+#1476956687
+cd test
+#1476956688
+ls
+#1476956693
+ls -a
+#1476956698
+git branch
+#1476956703
+git checkout
+#1476956707
+git init
+#1476956714
+git checkout
+#1476956716
+git branch
+#1476956727
+git commit -m
+#1476956732
+git commit -m "hola"
+#1476956796
+git branch
+#1476956808
+git checkout
+#1476956813
+fatal: You are on a branch yet to be born
+#1476956876
+cd .git/
+#1476956877
+ls
+#1476956887
+cd ..
+#1476956893
+rm -r test
+#1476956896
+cd repo
+#1476956898
+ls
+#1476956906
+mkdir repository
+#1476956909
+cd repository/
+#1476956913
+git init
+#1476956925
+git clone https://git.dsmc.tid.es/b.jhz/test.git
+#1476956941
+git clone https://github.com/javierherasz/test.git
+#1476956949
+ls -a
+#1476956959
+git checkout
+#1476956965
+git branch
+#1476956970
+cd test/
+#1476956974
+git branch
+#1476956978
+git checkout
+#1476956986
+git clone https://github.com/javierherasz/test.git
+#1476958092
+ls -a
+#1476958101
+rm -r test
+#1476958102
+ls
+#1476958105
+cd ..
+#1476958108
+ls -a
+#1476958113
+cd .git/
+#1476958115
+ls -a
+#1476958648
+cd ..
+#1476958656
+git branch -a
+#1476958717
+cd ..
+#1476958724
+git add libgeneral.py
+#1476958730
+git branch
+#1476958736
+git checkout
+#1476958752
+git commit -m
+#1476958759
+git commit -m "inicio"
+#1476958789
+git status
+#1476958797
+git branch
+#1476958832
+git push origin master
+#1476958884
+git push origin test
+#1476958898
+git push origin master
+#1476958898
+fatal: 'origin' does not appear to be a git repository
+#1476958898
+fatal: The remote end hung up unexpectedly
+#1476959232
+git push origin master
+#1476959540
+git push origin test
+#1476959556
+git push master
+#1476959601
+git push master master
+#1476959630
+git remote rename master origin
+#1476959775
+git remote add origin test
+#1476959780
+git remote add origin master
+#1476959823
+git push origin master
+#1476959829
+git push origin test
+#1476959842
+git checkout
+#1476959847
+git branch
+#1476960025
+git push origin master
+#1476960049
+ls -a
+#1476960094
+git remote add origin https://git.dsmc.tid.es/b.jhz/test.git
+#1476960194
+git reset --hard origin/master
+#1476960202
+git reset --hard origin
+#1476960218
+git reset --hard origin/test
+#1476960251
+git remote rm test
+#1476960257
+git remote rm origin
+#1476960263
+git remote add origin https://git.dsmc.tid.es/b.jhz/test.git
+#1476960300
+git git push origin master
+#1476960306
+git push origin master
+#1476960317
+git remote rm origin
+#1476960339
+git remote add origin https://github.com/javierherasz/test.git
+#1476960342
+git push origin master
+#1476961578
+ls
+#1476961582
+cd repository/
+#1476961583
+ls
+#1476961587
+git branch
+#1476961589
+cd ..
+#1476961590
+git branch
+#1476961615
+ls
+#1476961625
+rm -r repository/
+#1476961626
+ls
+#1476961647
+git checkout -b repository
+#1476961655
+git branch
+#1476961665
+git checkout master
+#1476961669
+git branch
+#1476961689
+git pull
+#1476966291
+git push origin master
+#1476966358
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/javierherasz/test.git/info/refs
+#1476966358
+fatal: HTTP request failed
+#1476966415
+git remote -v
+#1476966631
+git --version
+#1476966649
+curl --version
+#1476966698
+nano .gitconfig 
+#1476966729
+cd .git
+#1476966736
+nano config
+#1476966868
+git push origin master
+#1476966932
+cd ..
+#1476966935
+git push origin master
+#1476966942
+cd .git
+#1476966947
+nano config 
+#1476966960
+git push origin master
+#1476966964
+nano config 
+#1476966976
+git push origin master
+#1476967031
+cd ..
+#1476967041
+ls -al ~/.ssh
+#1476967153
+ssh-add ~/.ssh/id_rsa
+#1476967173
+ssh-add ~/.ssh/id_rsa.pub
+#1476967177
+sudo ssh-add ~/.ssh/id_rsa
+#1476967204
+clip < ~/.ssh/id_rsa.pub 
+#1476967214
+xclip < ~/.ssh/id_rsa.pub 
+#1476967245
+sudo apt-get install clip
+#1476967253
+sudo yum install clip
+#1476967270
+clip < ~/.ssh/id_rsa.pub 
+#1476967274
+sudo yum install xclip
+#1476967279
+sudo yum install clip
+#1476967318
+sudo yum install xclip
+#1476967527
+
+#1476967622
+ssh -T git@github.com
+#1476967654
+git push origin master
+#1476968172
+ls 
+#1476968198
+git checkout -b repository
+#1476968216
+git branch 
+#1476968223
+git branch repository
+#1476968236
+git checkout repository
+#1476968253
+git add libgeneral.py
+#1476968263
+git status
+#1476968289
+git add libgeneral.py
+#1476968291
+git status
+#1476968311
+git commit -m "hola"
+#1476968340
+git commit -a "hola"
+#1476968367
+git commit -m -a "hola"
+#1476968379
+git commit -a
+#1476968432
+git status
+#1476968447
+git push origin repository
+#1476968931
+git status
+#1477399776
+ls
+#1477399851
+git clone https://github.com/javierherasz/test.git/info/refs
